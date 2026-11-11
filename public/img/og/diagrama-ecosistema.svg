@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="t d">
+  <title id="t">Ecosistema digital integrado</title><desc id="d">Tienda online, fidelización y punto de venta conectados en una misma solución.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbe4ec"/><stop offset="1" stop-color="#fffaf7"/></linearGradient></defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <circle cx="1030" cy="100" r="210" fill="#ffb6d0" opacity=".22"/><circle cx="150" cy="590" r="190" fill="#d60045" opacity=".06"/>
+  <text x="600" y="115" text-anchor="middle" fill="#741a38" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="5">ECOSISTEMA DIGITAL</text>
+  <g fill="#fffaf7" stroke="#d785a4" stroke-width="2">
+    <rect x="80" y="240" width="300" height="235" rx="26"/><rect x="450" y="240" width="300" height="235" rx="26"/><rect x="820" y="240" width="300" height="235" rx="26"/>
+  </g>
+  <g fill="#d60045"><circle cx="230" cy="315" r="38"/><circle cx="600" cy="315" r="38"/><circle cx="970" cy="315" r="38"/></g>
+  <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 315h40l-5 28h-30l-5-28m-6-12h52m-36 1 5-13h23l5 13"/>
+    <path d="M582 305h36v29h-36zM590 298h20M590 315h20M590 324h13"/>
+    <path d="M950 302h40v31h-40zM960 294h20M958 311h24M958 321h18"/>
+  </g>
+  <g fill="#741a38" font-family="Arial,sans-serif" text-anchor="middle">
+    <text x="230" y="405" font-size="26" font-weight="700">E-commerce</text><text x="230" y="438" font-size="17">Tienda online</text>
+    <text x="600" y="405" font-size="26" font-weight="700">Club Crazy</text><text x="600" y="438" font-size="17">Fidelización</text>
+    <text x="970" y="405" font-size="26" font-weight="700">Punto de venta</text><text x="970" y="438" font-size="17">Operación del local</text>
+  </g>
+  <g stroke="#d60045" stroke-width="4" fill="none" stroke-linecap="round"><path d="M382 355h64m-14-12 14 12-14 12"/><path d="M752 355h64m-14-12 14 12-14 12"/></g>
+  <text x="600" y="555" text-anchor="middle" fill="#78646d" font-family="Arial,sans-serif" font-size="21">Información conectada · Experiencia coherente · Procesos integrados</text>
+</svg>

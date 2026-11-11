@@ -1,0 +1,44 @@
+.sobre-pagina-intro { max-width: 850px; }
+.sobre-perfil { display: grid; grid-template-columns: minmax(240px, .72fr) 1.28fr; align-items: center; gap: clamp(38px, 7vw, 90px); padding-block: 30px 10px; }
+.sobre-foto-marco { max-width: 390px; padding: 13px; border: 1px solid var(--rosa); border-radius: 45% 45% 18px 18px; background: var(--rosa-claro); }
+.sobre-foto-marco img { width: 100%; aspect-ratio: 4 / 5; border-radius: 45% 45% 12px 12px; object-fit: cover; object-position: center 25%; }
+.sobre-perfil-texto h2 { max-width: 630px; margin-top: 16px; color: var(--vino); }
+.sobre-perfil-texto p { max-width: 630px; margin-top: 17px; color: var(--texto-suave); line-height: 1.8; }
+.sobre-perfil-texto .enlace-flecha { margin-top: 24px; }
+.sobre-bloque { margin-top: clamp(75px, 9vw, 115px); }
+.bloque-cabecera { margin-bottom: 35px; }
+.bloque-cabecera h2 { margin-top: 12px; color: var(--vino); }
+.sobre-lista { border-top: 1px solid var(--borde); }
+.sobre-item { display: grid; grid-template-columns: 190px 1fr; gap: 35px; padding: 27px 0; border-bottom: 1px solid var(--borde); }
+.sobre-periodo { padding-top: 6px; color: var(--rojo-oscuro); font-size: .78rem; font-weight: 700; }
+.sobre-item-contenido h3 { color: var(--vino); font-size: 1.55rem; }
+.sobre-lugar { margin-top: 7px; color: var(--rojo-oscuro); font-size: .83rem; font-weight: 600; }
+.sobre-item-contenido > p:not(.sobre-lugar) { max-width: 780px; margin-top: 13px; color: var(--texto-suave); font-size: .9rem; }
+.sobre-item-contenido ul { display: grid; gap: 8px; margin-top: 17px; }
+.sobre-item-contenido li { position: relative; padding-left: 18px; color: var(--texto-suave); font-size: .86rem; }
+.sobre-item-contenido li::before { position: absolute; top: .72em; left: 0; width: 5px; height: 5px; border-radius: 50%; background: var(--rosa); content: ""; }
+.formacion-complementaria { margin-top: 35px; }
+.formacion-complementaria > h3 { margin-bottom: 20px; color: var(--vino); font-size: 1.35rem; }
+.formacion-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 13px; }
+.formacion-card { padding: 20px; border: 1px solid var(--borde); border-radius: 13px; background: rgba(255,255,255,.5); }
+.formacion-card span { color: var(--rojo); font-size: .63rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+.formacion-card h4 { margin-top: 9px; color: var(--vino); font-family: var(--fuente-texto); font-size: .95rem; letter-spacing: 0; }
+.formacion-card p { margin-top: 6px; color: var(--texto-suave); font-size: .78rem; }
+.habilidades-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px; }
+.habilidad-card { padding: 23px; border: 1px solid var(--borde); border-radius: 14px; background: rgba(255,255,255,.52); }
+.habilidad-card h3 { color: var(--vino); font-size: 1.3rem; }
+.habilidad-card > p { min-height: 48px; margin-top: 9px; color: var(--texto-suave); font-size: .8rem; }
+.habilidad-card .habilidad-lista { margin-top: 17px; }
+.idiomas-lista { display: flex; flex-wrap: wrap; gap: 10px; }
+.idiomas-lista span { padding: 11px 16px; border: 1px solid var(--borde); border-radius: 999px; color: var(--vino); font-size: .85rem; font-weight: 600; }
+.sobre-cta { display: flex; align-items: center; justify-content: space-between; gap: 25px; margin-top: 95px; padding: 34px 0 0; border-top: 1px solid var(--borde); }
+.sobre-cta h2 { margin-top: 10px; color: var(--vino); font-size: clamp(1.8rem, 3vw, 2.5rem); }
+
+@media (max-width: 720px) {
+  .sobre-perfil { grid-template-columns: 1fr; }
+  .sobre-foto-marco { width: min(78%, 350px); justify-self: center; }
+  .sobre-item { grid-template-columns: 1fr; gap: 7px; }
+  .habilidades-grid, .formacion-grid { grid-template-columns: 1fr; }
+  .habilidad-card > p { min-height: 0; }
+  .sobre-cta { align-items: flex-start; flex-direction: column; }
+}

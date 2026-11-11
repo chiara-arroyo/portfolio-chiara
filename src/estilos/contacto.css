@@ -1,0 +1,17 @@
+.pagina-contacto { display: grid; grid-template-columns: 1.08fr .92fr; align-items: center; gap: clamp(45px, 8vw, 110px); min-height: 74vh; }
+.contacto-texto h1 { max-width: 720px; margin-top: 19px; font-size: clamp(2.8rem, 5.1vw, 4.65rem); }
+.contacto-texto > p { max-width: 580px; margin-top: 23px; color: var(--texto-suave); font-size: 1.08rem; line-height: 1.8; }
+.contacto-texto .boton { margin-top: 31px; }
+.contacto-panel { padding: clamp(22px, 3vw, 34px); border: 1px solid var(--borde); border-radius: 19px; background: rgba(255,255,255,.58); box-shadow: var(--sombra); }
+.contacto-lista { margin-top: 20px; border-top: 1px solid var(--borde); }
+.contacto-fila { display: grid; grid-template-columns: 44px 1fr 20px; align-items: center; gap: 13px; padding: 17px 0; border-bottom: 1px solid var(--borde); transition: padding .2s ease; }
+.contacto-fila:hover { padding-inline: 6px; }
+.contacto-simbolo { display: grid; width: 40px; height: 40px; place-items: center; border-radius: 50%; background: var(--rosa-suave); color: var(--vino); font-size: .93rem; font-weight: 700; }
+.contacto-datos { display: flex; min-width: 0; flex-direction: column; }
+.contacto-datos strong { color: var(--vino); font-size: .9rem; }
+.contacto-datos small { overflow-wrap: anywhere; margin-top: 2px; color: var(--texto-suave); font-size: .76rem; }
+.contacto-flecha { color: var(--rojo); font-size: 1.1rem; }
+.contacto-ubicacion { margin-top: 19px; color: var(--texto-suave); font-size: .75rem; }
+@media (max-width: 760px) {
+  .pagina-contacto { grid-template-columns: 1fr; gap: 45px; padding-top: 65px; }
+}
